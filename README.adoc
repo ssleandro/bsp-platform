@@ -1,4 +1,4 @@
-= Variscite BSP Platform (based on NXP Yocto BSP)
+= BSP Platform (based on NXP Yocto BSP)
 
 To get the BSP you need to have `repo` installed and use it as:
 
@@ -15,7 +15,7 @@ Download the BSP source:
 $ PATH=${PATH}:~/bin
 $ mkdir ~/var-fsl-yocto
 $ cd ~/var-fsl-yocto
-$ repo init -u https://github.com/varigit/variscite-bsp-platform.git -b fsl-zeus
+$ repo init -u https://github.com/ssleandro/bsp-platform.git -b master
 $ repo sync -j4
 
 At the end of the commands you have every metadata you need to start work with.
@@ -30,4 +30,3 @@ You can use any directory to host your build.
 
 The source code is checked out at `var-fsl-yocto/sources`.
 
-For further info go to http://variwiki.com

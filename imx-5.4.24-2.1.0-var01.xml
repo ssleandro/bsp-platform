@@ -43,7 +43,7 @@
   <project remote="variscite" revision="484b41ffdd5a51e588e870e858a048caf00727cd" name="meta-variscite-imx"       path="sources/meta-variscite-imx">
   </project>
 
-  <project remote="agronave" revision="8f3d65a5ff3fdb89006a2f042176764c5178c9a9" name="meta-agronave"       path="sources/meta-agronave">
+  <project remote="agronave" revision="5e662cf5451bf0914c740e66d8059ff9dc0459d4" name="meta-agronave"       path="sources/meta-agronave">
     <linkfile dest="var-setup-release.sh" src="scripts/var-setup-release.sh"/>
   </project>
 </manifest>
